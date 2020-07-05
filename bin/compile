@@ -13,6 +13,7 @@ echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
 
 cd $BUILD_DIR
 mkdir -p $VENDOR_DIR
+mkdir -p downloads
 cd $VENDOR_DIR
 mkdir -p youtube-dl
 cd youtube-dl
